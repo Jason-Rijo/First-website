@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Form</title>
+</head>
+<body>
+<form>
+<table border="1">
+<tr  style="text-align:center; background-color:yellow;">
+<th colspan="2" style="color:red; border-color:red">Registration Form</th>
+</tr>
+<tr  style="text-align:center; background-color:skyblue;">
+<th>Enter Name</th>
+<td> <input type="text"name="username"/></td>
+</tr>
+<tr  style="text-align:center; background-color:skyblue;">
+<th>Enter Password</th>
+<td> <input type="text"name="userpassword"/></td>
+</tr>
+<tr  style="text-align:center; background-color:skyblue;">
+<th>Enter Address</th>
+<td> <textarea rows="5" cols="25" name="address"></textarea>
+</td>
+</tr>
+<tr style="background-color:skyblue;">
+<th>Select Game</th>
+<td style="text-align:left; ">
+<input type="checkbox" id="game2" name="Football" value="Football"/>
+<label for="game2">Football</label><br>
+<input type="checkbox" id="game3" name="Badminton" value="Badminton"/>
+<label for="game3">Badminton</label><br>
+<input type="checkbox" id="game4" name="Cricket" value="Cricket"/>
+<label for="game4">Cricket</label><br>
+<input type="checkbox" id="game5" name="Volleyball" value="Volleyball"/>
+<label for="game5">Volleyball</label><br>
+</td>
+</tr>
+<tr style="text-align:center;  background-color:skyblue;">
+<th>Gender</th>
+<td> <input type="radio"name="gender" value="male"/>male
+<input type="radio"name="gender" value="Female"/>Female</td>
+</tr>
+<tr style="text-align:center; background-color:skyblue;">
+<th>Select ur age</th>
+<td><select name="age" >
+<option value="" disabled selected hidden>Select</option>
+<option value="Below 18" >Below 18</option>
+<option value="18 to 25" >18 to 25</option>
+<option value="25 to 35" >25 to 35</option>
+</select> </td>
+</tr>
+<tr style="text-align:center; background-color:skyblue;">
+<th>Select Photo</th>
+<td>
+<input type="file" id="myfile" name="myfile">
+<label for="myfile" ></label>
+</td>
+</tr>
+<tr style="text-align:center; background-color:skyblue;">
+<td colspan="2" >
+<button type="button" style="width:30%" >Click Me</button>
+<button type="reset"  style="width:30%;">Reset</button>
+<button type="submit" style="width:30%;">Submit Form</button>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
